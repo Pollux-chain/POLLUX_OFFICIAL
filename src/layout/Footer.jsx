@@ -66,9 +66,9 @@ const Footer = () => {
            <a href='https://www.instagram.com/polluxchainofficial/ '> <FaInstagram size={28} /></a>
            <a href="https://www.facebook.com/PolluxCoin/"><FaFacebook size={28} /></a> 
            <a href='https://x.com/polluxcoin1'><FaXTwitter size={28} /></a>
-            <FaLinkedin size={28} />
+           <a href="https://www.linkedin.com/company/polluxchain/"><FaLinkedin size={28} /></a>
            <a href="https://discord.com/invite/ngy8F2Cs"><FaDiscord size={28}/></a>
-           <a href='https://t.me/polluxchainDAO'> <FaTelegram  size={28}/></a>
+           <a href='https://t.me/Polluxchaindev'> <FaTelegram  size={28}/></a>
           </div>
         </div>
       </div>
