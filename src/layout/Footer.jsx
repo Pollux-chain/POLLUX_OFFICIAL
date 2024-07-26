@@ -4,6 +4,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 import Logo from '../assets/Logo.webp';
 import BG from "../assets/BG.webp";
 import PrivacyPDF from "../assets/PrivacyDoc.pdf";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -44,17 +45,17 @@ const Footer = () => {
           <div className="flex flex-row items-center justify-around">
             <ul className="mb-4 md:mb-0">
             <a href='https://pox-chain.gitbook.io/doc'><li className="py-1 cursor-pointer">Developers</li></a>
-              <li className="py-1 cursor-pointer">Partners</li>
-              <li className="py-1 cursor-pointer">Bug Bounty Program</li>
-              <li className="py-1 cursor-pointer">Contact us</li>
+             <Link to="comingsoon"> <li className="py-1 cursor-pointer">Partners</li></Link>
+             <Link to="comingsoon"> <li className="py-1 cursor-pointer">Bug Bounty Program</li></Link>
+             <Link to="comingsoon"> <li className="py-1 cursor-pointer">Contact us</li></Link>
               {/* <li className="py-1 cursor-pointer">Documentation</li> */}
               {/* <li className="py-1 cursor-pointer">Grants</li> */}
             </ul>
             <ul>
              <a href=' https://poxscan.io/whitepaper.pdf'> <li className="py-1 cursor-pointer">White Paper</li></a>
-              <li className="py-1 cursor-pointer">Educational</li>
+            <Link to="comingsoon">  <li className="py-1 cursor-pointer">Educational</li></Link>
              <a href='https://medium.com/@polluxchainofficial'> <li className="py-1 cursor-pointer">Blogs</li></a>
-              <li className="py-1 cursor-pointer">About</li>
+            <Link to="comingsoon">  <li className="py-1 cursor-pointer">About</li></Link>
               {/* <li className="py-1 cursor-pointer">Initiatives</li> */}
               {/* <li className="py-1 cursor-pointer">Team</li> */}
             </ul>
