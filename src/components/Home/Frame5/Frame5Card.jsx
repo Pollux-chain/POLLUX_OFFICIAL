@@ -10,7 +10,7 @@ const Frame5Card = ({ img, desc, para }) => {
 
   return (
     <div className="flex flex-col text-center">
-      <div className="border-1 rounded-3xl bg-gradient-to-r from-[#FDE3AD] via-[#FAB735] to-[#FAA811] p-1 mx-4">
+      <div className="border-1 rounded-3xl bg-gradient-to-b from-[#FDE3AD] via-[#f1c875] to-[#ffa600] p-1 mx-4">
         <div className="bg-[#10022A] rounded-t-3xl flex justify-center py-12 back">
           <img src={img} alt={desc} className="hover:animate-tada animate-jiggle" />
         </div>

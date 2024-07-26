@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { lazy, Suspense, useState, useEffect } from "react";
 import Footer from "./layout/Footer";
+import ErrorPage from "./pages/ErrorPage";
+import ComingSoon from "./pages/ComingSoon";
 
 const Home = lazy(() => import("./pages/Home"));
 
@@ -32,6 +34,8 @@ function App() {
         <Suspense fallback={<LoadingScreen />}>
           <Routes>
             <Route path="/" element={<Home onLoad={handleHomeLoad} />} />
+            <Route path="*" element={<ErrorPage/>} />
+            <Route path="/comingsoon" element={<ComingSoon />} />
           </Routes>
         </Suspense>
         {footerVisible && <Footer />}
