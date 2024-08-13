@@ -44,7 +44,7 @@ const Footer = () => {
           <p className="text-2xl pb-8 md:indent-[80px]">Pollux Coin</p>
           <div className="flex flex-row items-center justify-around">
             <ul className="mb-4 md:mb-0">
-            <a href='https://pox-chain.gitbook.io/doc'><li className="py-1 cursor-pointer">Developers</li></a>
+            <a href='https://polluxcoin.gitbook.io/d-app-developer-doc'><li className="py-1 cursor-pointer">Developers</li></a>
              <Link to="comingsoon"> <li className="py-1 cursor-pointer">Partners</li></Link>
              <Link to="comingsoon"> <li className="py-1 cursor-pointer">Bug Bounty Program</li></Link>
              <Link to="comingsoon"> <li className="py-1 cursor-pointer">Contact us</li></Link>
