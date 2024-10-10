@@ -44,13 +44,14 @@ const Navbar = () => {
                   <a href="https://poxscan.io/download-polink"><li className="py-1">Wallet</li></a>
                   <a href="https://poxscan.io"><li className="py-1">Explorer</li></a>
                  <a href=" https://chromewebstore.google.com/detail/polink/afeibjjgfjfphjedhdjgbgbhpomolbjm"><li className="py-1">Extension</li></a>
+                 <a href=" https://uvi.network/"><li className="py-1 whitespace-nowrap">Uvi Mining</li></a>
                 </ul>
               </div>
             )}
           </div>
-          <a href="https://pox-chain.gitbook.io/doc">
+          <a href="https://poxscan.io/more/prc-deployment">
           <p className="text-white font-semibold text-2xl cursor-pointer ">
-            Developers
+            Token Deployment
           </p></a>
           <div className="flex items-center space-x-2 md:-mt-[4rem] lg:-mt-[4rem] xl:-mt-[4rem] 2xl:-mt-[2rem] mr-32">
             <img src={LogoImage} alt="Logo" className="h-16 w-auto" />
@@ -105,12 +106,15 @@ const Navbar = () => {
                   <a href="https://poxscan.io/download-polink"><li className="py-1">Wallet</li></a>
                   <a href="https://poxscan.io"><li className="py-1">Explorer</li></a>
                  <a href=" https://chromewebstore.google.com/detail/polink/afeibjjgfjfphjedhdjgbgbhpomolbjm"><li className="py-1">Extension</li></a>
+                 <a href=" https://uvi.network/"><li className="py-1 whitespace-nowrap">Uvi Mining</li></a>
                 </ul>
               </div>
             )}
+            <a href="https://poxscan.io/more/prc-deployment">
             <p className="text-white font-semibold text-lg cursor-pointer mb-2">
-              Developers
+              Token Deployment
             </p>
+            </a>
             <p className="text-white font-semibold text-lg cursor-pointer mb-2">
              Coin
             </p>
