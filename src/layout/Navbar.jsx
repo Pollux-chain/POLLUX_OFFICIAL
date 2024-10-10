@@ -53,7 +53,7 @@ const Navbar = () => {
           <p className="text-white font-semibold text-2xl cursor-pointer ">
             Token Deployment
           </p></a>
-          <div className="flex items-center space-x-2 md:-mt-[4rem] lg:-mt-[4rem] xl:-mt-[4rem] 2xl:-mt-[2rem] mr-32">
+          <div className="flex items-center space-x-2 md:-mt-[4rem] lg:-mt-[4rem] xl:-mt-[4rem] 2xl:-mt-[2rem] mr-56">
             <img src={LogoImage} alt="Logo" className="h-16 w-auto" />
             <p className="text-white text-3xl mt-2 font-semibold cursor-pointer">
               Polluxcoin
