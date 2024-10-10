@@ -2,7 +2,7 @@ import LogoImage from "../assets/Logo.webp";
 import { useInView } from "react-intersection-observer";
 import { MdMenu } from "react-icons/md";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { ref: topRef, inView: inViewTop } = useInView({
